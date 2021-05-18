@@ -1,9 +1,10 @@
 #  Estructuras de datos con Python 🐍  🟡🔵
 
-## Autor: Andrés Camilo Núñez Garzón 👨🏽‍💻
+## Autor: Andrés Camilo Núñez Garzón 
+👨🏽‍💻
 
 ## Stack / Pila
-### Archivo: <code>stack.py</code>
+**Archivo**: <code>stack.py</code>
 - Estructura de datos con método de acceso tipo LIFO por las siglas en inglés Last Input First Output.
 - En cada momento se tiene acceso sólo al TOS (Top Of Stack - parte superior de la pila)
 - Cuenta con dos operaciones básicas: **Push (apilar)**: coloca un objeto en la pila, y **Pop**: retira el TOS
