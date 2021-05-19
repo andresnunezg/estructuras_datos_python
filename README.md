@@ -1,7 +1,13 @@
 #  Estructuras de datos con Python 🐍  🟡🔵
 
-## Autor: Andrés Camilo Núñez Garzón 
-👨🏽‍💻
+## Autor: Andrés Camilo Núñez Garzón 👨🏽‍💻
+
+## 📔 References / Fuentes:
+
+[Stack - Wikipedia](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica))
+[Queue - Wikipiedia](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))
+[Real Python!](https://realpython.com/linked-lists-python/)
+
 
 ## Stack / Pila
 **Archivo**: <code>stack.py</code>
