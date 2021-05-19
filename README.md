@@ -2,11 +2,11 @@
 
 ## Autor: Andrés Camilo Núñez Garzón 👨🏽‍💻
 
-## 📔 References / Fuentes:
+## 📖 References / Fuentes:
 
-[Stack - Wikipedia](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica))
-[Queue - Wikipiedia](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))
-[Real Python!](https://realpython.com/linked-lists-python/)
+[Stack - Wikipedia 🇪🇸](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica))       
+[Queue - Wikipiedia 🇪🇸](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))      
+[Linked List - Real Python 🇬🇧](https://realpython.com/linked-lists-python/)     
 
 
 ## Stack / Pila
@@ -23,3 +23,9 @@ Adicional a las operaciones tradicionales **push** y **pop** las pilas cuentan c
 - Desapilar (pop): Retira el TOS
 - Leer el TOS (peek / top): Lee el último elemento apilado
 - Vacía (empty): True si la pila está vacía y False de lo contrario
+
+## Queue / Cola
+**Archivo**: <code>queue.py</code>
+
+## Linked List / Lista Enlazada
+**Archivo**: <code>linked_list.py</code>
