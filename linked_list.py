@@ -15,8 +15,29 @@ class linked_list:
             for i in nodes:
                 node_obj.next = node(data = i) 
                 node_obj = node_obj.next
+    
+    def add_begin(self, node):
+        node.next = self.head
+        self.head = node
+    
+    def add_end(self, node):
+        if self.head is None:
+            self.head = node
+            return
+        for current_node in self:
+            pass
+        current_node.next = node
 
     def __str__(self):
+        node = self.head
+        nodes = list()
+        while node != None:
+            nodes.append(node.data)
+            node = node.next
+        nodes.append('None')
+        return ' -> '.join(nodes)
+    
+    def __repr__(self):
         node = self.head
         nodes = list()
         while node != None:
@@ -54,7 +75,13 @@ if __name__ == '__main__':
     #node_02.next = node_03
     #node_03.next = node_04
 
-    #Iterar sobre la lista enlazada
+    #crear nodo a ser agregado al final
+    node_end = node('Z')
+
+    #agregar nodo al final con el método add_end()
+    lk_list.add_end(node_end)
+
+    #iterar sobre la lista enlazada
     for node in lk_list:
         print(node)
 
