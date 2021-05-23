@@ -6,7 +6,8 @@
 
 [Stack - Wikipedia 🇪🇸](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica))       
 [Queue - Wikipiedia 🇪🇸](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))      
-[Linked List - Real Python 🇬🇧](https://realpython.com/linked-lists-python/)     
+[Linked List - Real Python 🇬🇧](https://realpython.com/linked-lists-python/)
+[Graphs - Tutorials Point 🇬🇧](https://www.tutorialspoint.com/python_data_structure/python_graphs.htm)
 
 ## Stack / Pila
 **Archivo**: <code>stack.py</code>
@@ -39,3 +40,13 @@ Las listas enlazadas están compuestas por nodos y cada nodo está compuesto por
 - Next / siguiente: contiene una referencia al siguiente nodo de la lista
 El primer nodo en la lista es llamado **head** o **cabecera** y es el punto de partida para cualquier iteración sobre la lista enlazada.
 En cuanto al último nodo su referencia al siguiente nodo debe ser None.
+
+## Graph / Grafo
+**Archivo**: <code>graph.py</code>
+Los grafos son utilizados para representar la relación entre objetos o para representar diferentes tipos de redes. Típicamente un grafo se representa como un conjunto de puntos (vértices) unidos por líneas (aristas).
+Hay diferentes maneras de realizar la implementación de los grafos, uno de los más comunes es la **lista de adyacencia**, donde la primera columna corresponde a los vértices y la segunda columa los vértices conectados mediante aristas al nodo de la primera columna.
+Los métodos u operaciones implementadas para esta esta estructura de datos son:
+- get_vertices: obtener los vertices del grafo (llaves del diccionario)
+- get_edges: obtener las aristas asociadas a cada vértice, devuelve una lista de tuplas
+- set_vertice: establecer un nuevo vértice
+- set_edge:  establecer una nueva arista, también acepta nuevos vértices
