@@ -6,7 +6,7 @@
 
 [Stack - Wikipedia 🇪🇸](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica))       
 [Queue - Wikipiedia 🇪🇸](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))      
-[Linked List - Real Python 🇬🇧](https://realpython.com/linked-lists-python/)
+[Linked List - Real Python 🇬🇧](https://realpython.com/linked-lists-python/)  
 [Graphs - Tutorials Point 🇬🇧](https://www.tutorialspoint.com/python_data_structure/python_graphs.htm)
 
 ## Stack / Pila
